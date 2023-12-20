@@ -1,0 +1,18 @@
+.bg-gradient-primary {
+    background: var(--secondary-color);
+}
+
+.text-color {
+    color: black !important
+}
+
+.br-color {
+    background-color: black;
+}
+
+.sidebar__admin {
+    padding: 2rem;
+    position: sticky;
+    top: 80px;
+    background-color: #faa935;
+}

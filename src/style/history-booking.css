@@ -1,0 +1,60 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #FAA935 !important;
+    color: white !important;
+}
+
+.btn-suc {
+    background-color: #FAA935 !important;
+    /* Màu nền của button */
+    color: #fff !important;
+    /* Màu chữ của button */
+}
+
+.btn-danger .btn-suc {
+    padding: 10px 20px !important;
+    /* Kích thước padding */
+    border: none !important;
+    /* Loại bỏ đường viền */
+    border-radius: 5px !important;
+    /* Bo tròn góc */
+    cursor: pointer !important;
+    /* Hiển thị con trỏ khi di chuột qua button */
+}
+
+.header_history {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}

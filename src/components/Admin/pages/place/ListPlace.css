@@ -1,0 +1,39 @@
+.cover-image{
+    height: 100px;
+    width: 150px;
+}
+
+.item-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+            line-clamp: 4; 
+    -webkit-box-orient: vertical;
+ }
+
+ 
+.pagination span {
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius:  50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.active__page{
+    background: var(--secondary-color);
+    color: #fff !important;
+}

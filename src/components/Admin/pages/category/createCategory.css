@@ -1,0 +1,10 @@
+.card-header {
+    background-color: var(--secondary-color) !important;
+    /* background-color: #FFA935; */
+    text-align: center;
+}
+
+
+/* .input-group-prepend {
+    background-color: var(--secondary-color) !important;
+} */

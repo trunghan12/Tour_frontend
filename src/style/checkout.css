@@ -1,0 +1,29 @@
+.thank__you span i {
+    font-size: 4rem;
+    color: green;
+}
+
+.thank__you h1 {
+    font-size: 3, 6rem;
+    font-family: var(--subtitle-font-name);
+}
+
+.card-paypay .form-1 {
+    margin-right: 60px;
+}
+
+.bg-card-pay {
+    background-color: #E0E0E0;
+}
+
+.bg-card-pay .card-pay {
+    margin: 9px;
+}
+
+.btn-history {
+    text-align: right;
+}
+
+.btn-right {
+    margin-left: auto;
+}

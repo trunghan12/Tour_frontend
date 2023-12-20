@@ -1,0 +1,107 @@
+.about__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../assets/images/tour-img06.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about__section h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.tour__img img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.tour__img {
+    position: relative;
+    width: 100%;
+    height: 172px;
+    overflow: hidden;
+}
+
+.tour__img span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 0.3em 0.5rem;
+    border-radius: 3px 0 0 0;
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #FAA935 !important;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 4px;
+    left: -40px;
+    background: var(--secondary-color);
+    z-index: -1;
+}
+
+.section-title.text-start::before {
+    width: calc(100% + 40px);
+    left: 0;
+}
+
+.section-title.text-start::after {
+    width: calc(100% + 60px);
+    left: 0;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 120px);
+    height: 2px;
+    bottom: 5px;
+    left: -60px;
+    background: var(--secondary-color);
+    z-index: -1;
+}
+
+*::after {
+    box-sizing: border-box;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+
+.text-color {
+    color: #FAA935 !important;
+}
+
+.body__text {
+    margin: 0;
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #808B8D;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
